@@ -15,5 +15,5 @@ urlpatterns = [
     path('user_id/', views.get_user_id),
     path('remove-from-favorite/<int:food_id>/', views.remove_from_favorites),
     url(r'^$', views.index),
-    # path('products/<int:product_id>/', views.product_details),
+    path('products/<int:product_id>/', views.product_details),
 ]
